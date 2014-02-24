@@ -11,8 +11,8 @@ local prevTime = 0
 _M.added = true
 local function createText()
     local memory = display.newText('00 00.00 000',10,0, 'Helvetica', 14);
-	--memory:setTextColor(255,53,247)
-	memory:setTextColor(232,3,99)
+	--memory:setFillColor(255,53,247)
+	memory:setFillColor(232,3,99)
     memory.anchorY = 0
     memory.x, memory.y = display.contentCenterX, display.screenOriginY+25
     function memory:tap ()
